@@ -224,8 +224,5 @@ while running:
 	#Marcador
 	draw_text(screen, str(score), 25, WIDTH // 2, 10)
 
-	# Escudo.
-	draw_shield_bar(screen, 5, 5, player.shield)
-
 	pygame.display.flip()
 pygame.quit()
